@@ -1,8 +1,13 @@
+<?php
+	$fonts = "verdana";
+?>
+
 <!doctype html>
 <html>
 <head>
 	<title> PHP IS WEIRD </title>
 	<style>
+	 body{font-family: <?php echo $fonts;?>}
 	.phpcoding{width:900px; margin: 0 auto; background:#ddd; padding 40px;}
 	.headersetting, .footeroption{background:#444; color:#fff; text-align: center;}
 	.phppart{min-height:40px;background:#fff;color:#444}
